@@ -18,14 +18,16 @@ desclassificado automaticamente.
 - Requisitos realizados.
 - Desacoplamento de código.
 - Legibilidade de código.
-- Boas práticas de desenvolvimento de API RESTful.
+- Boas práticas de desenvolvimento de API RESTful, utilize os links enviados como referência para aplicá-las em seu projeto.
+- Mapeamento dos campos.
+- Modelagem de dados.
 - Tratamento de erros das aplicações.
 - Performance das aplicações.
 - Arquitetura adotada no desenvolvimento das aplicações.
 - Documentação das aplicações.
 - Exposição de dados sensíveis no código.
 - Agendamento de rotinas.
-- Logs.
+- Logs das aplicações.
 - Segurança das aplicações.
 - Resiliência das aplicações.
 - Testes de integração ou unitários.
@@ -124,4 +126,19 @@ Este endpoint deve retornar todos os arquivos armazenados do MongoDB da collecti
 
 - Caso o usuário passe um nome de pasta que ainda não foi criada, através da rota de criação de pastas,
 retornar um erro solicitando que o mesmo execute esta operação. Mesma regra se aplica ao arquivo.
-- O endpoint de busca de arquivos vai ser bastante utilizado sendo necessário performance no tempo de retorno das informações. 
+- O endpoint de busca de arquivos vai ser bastante utilizado sendo necessário performance no tempo de retorno das informações.
+
+### Links que podem ser úteis no desenvolvimento:
+
+- https://refactoring.guru/design-patterns
+- https://semantix.ai/primeiros-passos-em-api-gateway/
+- https://semantix.ai/como-chegar-ao-nivel-supremo-de-apis-restful/
+- https://semantix.ai/politicas-em-apis-restful/
+- https://semantix.ai/seguranca-em-apis-restful/
+- https://semantix.ai/performance-em-apis-restful-cache-compressao-e-mais/
+- https://semantix.ai/api-restful-o-que-voce-precisa-saber-sobre-metodos-e-codigos-de-status-do-protocolo-http/
+- https://semantix.ai/a-anatomia-de-uma-api-restful/
+- https://semantix.ai/paginacao-ordenacao-e-filtros-em-apis-restful/
+- https://www.freecodecamp.org/portuguese/news/streams-em-node-js-tudo-o-que-voce-precisa-saber/
+- https://blog.logrocket.com/caching-node-js-optimize-app-performance/
+- https://www.luiztools.com.br/post/como-criar-um-cache-de-dados-com-redis-em-node-js/
